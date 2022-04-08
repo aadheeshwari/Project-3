@@ -1,0 +1,41 @@
+main {
+  text-align: center;
+  vertical-align: center;
+ 
+}
+body{
+  background-image: url('https://cache.desktopnexus.com/thumbseg/464/464781-bigthumbnail.jpg')!important;
+   background-repeat: no-repeat;
+  background-size: 100%;
+  
+  
+}
+
+form{
+   width: 350px;
+	height: 500px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	border: none;
+  text-align: center;
+  
+}
+input,select{
+	width: 100%;
+	border: inherit;
+   background: rgba(255,255,255,0.4);
+	padding: 10px;
+  border-radius: 20px;
+}
+button{
+   background: rgba(255,255,255,0.4);
+  border-radius: 20px !important;
+  border: inherit;
+}
+button:hover {
+   background: rgba(255,255,255,0.4)!important ;
+  border-radius: 20px !important;
+  border: inherit !important;
+}
